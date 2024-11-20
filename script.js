@@ -15,7 +15,7 @@ function encode(e) {
     if (!val.length) return
     if (val.length < 1) return
 
-    val = btoa(va)
+    val = btoa(val)
     base64.value = val
 }
 
