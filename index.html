@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encode / Decode</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Encode / Decode</h1>
+        <section class="sect english">
+            <h2>English</h2>
+            <input id="english" class="english__input" />
+        </section>
+        <section class="sect cypher">
+            <h2>Cypher</h2>
+            <input id="cypher" class="cypher__input" />
+        </section>
+        <!-- <section class="sect translate">
+            <h2>Translate</h2>
+            <button id="translate" class="translate__input">Translate</button>
+        </section> -->
+    </body>
+    <script>
+        javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+    </script>
+    <script src="script.js"></script>
+</html>
